@@ -1,0 +1,12 @@
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\bin\Debug\net6.0\CVBuilder.Core.deps.json
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\bin\Debug\net6.0\CVBuilder.Core.dll
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\bin\Debug\net6.0\CVBuilder.Core.pdb
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\obj\Debug\net6.0\CVBuilder.Core.csproj.AssemblyReference.cache
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\obj\Debug\net6.0\CVBuilder.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\obj\Debug\net6.0\CVBuilder.Core.AssemblyInfoInputs.cache
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\obj\Debug\net6.0\CVBuilder.Core.AssemblyInfo.cs
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\obj\Debug\net6.0\CVBuilder.Core.csproj.CoreCompileInputs.cache
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\obj\Debug\net6.0\CVBuilder.Core.dll
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\obj\Debug\net6.0\refint\CVBuilder.Core.dll
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\obj\Debug\net6.0\CVBuilder.Core.pdb
+F:\NetWorkVP\CVBuilder\CVBuilder.Core\obj\Debug\net6.0\ref\CVBuilder.Core.dll
