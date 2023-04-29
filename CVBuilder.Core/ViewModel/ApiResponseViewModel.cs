@@ -19,4 +19,17 @@ namespace CVBuilder.Core.ViewModel
             Data = data; 
         }
     }
+    public class ApiResponseViewModel<T>
+    {
+        public bool Status { get; set; }
+        public string Massage { get; set; }
+        public T Data { get; set; }
+
+        public ApiResponseViewModel(bool status, string massage, T data)
+        {
+            Status = status;
+            Massage = massage;
+            Data = data;
+        }
+    }
 }

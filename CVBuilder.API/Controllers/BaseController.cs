@@ -7,10 +7,7 @@ namespace CVBuilder.API.Controllers
     [Route("api/[controller]/[action]")]
     public class BaseController : Controller
     {
-      protected async Task<ApiResponseViewModel> GetResponse(object data)
-        {
-            var response = new ApiResponseViewModel(true, "Done", data);
-            return response;
-        }
+      protected ApiResponseViewModel<T> GetResponse<T>(T data)
+        => new ApiResponseViewModel<T>(true, "Done", data);
     }
 }

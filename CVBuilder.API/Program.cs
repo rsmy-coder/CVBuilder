@@ -35,6 +35,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddTransient<IFileService, FileService>();
 builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddCors();
 
 builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "CVBuilder", Version = "v1" })
@@ -62,6 +63,8 @@ else
     app.UseHsts();
 }
 
+app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -74,7 +77,7 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "CVBuilder");
-});
+});  
 
 app.MapControllerRoute(
     name: "default",

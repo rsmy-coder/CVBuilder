@@ -17,6 +17,7 @@ namespace CVBuilder.Infostructure.AutoMapper
             CreateMap<CreateUserDto,User>().ForMember(x => x.ImgUrl, x => x.Ignore());
             CreateMap<UpdateUserDto,User>().ForMember(x => x.ImgUrl, x => x.Ignore());
             CreateMap<User,UserViewModel>();
+            CreateMap<User , ResponseUserDto>();
         }
     }
 }

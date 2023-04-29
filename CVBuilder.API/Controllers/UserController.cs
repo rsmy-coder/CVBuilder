@@ -1,4 +1,5 @@
 ﻿using CVBuilder.Core.Dto;
+using CVBuilder.Data.Models;
 using CVBuilder.Infostructure.Services.Users;
 using Microsoft.AspNetCore.Mvc;
 
@@ -28,11 +29,8 @@ namespace CVBuilder.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create([FromForm] CreateUserDto dto)
-        {
-            var savedId = _userService.Create(dto);
-            return Ok(GetResponse(savedId));
-        }
+        public async Task<IActionResult> Create([FromForm] CreateUserDto dto)
+            => Ok(GetResponse(await _userService.Create(dto)));
 
         [HttpPut]
         public IActionResult Update([FromForm]UpdateUserDto dto)

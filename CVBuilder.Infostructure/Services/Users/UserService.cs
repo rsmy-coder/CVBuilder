@@ -5,11 +5,6 @@ using CVBuilder.Core.ViewModel;
 using CVBuilder.Data.Models;
 using CVBuilder.Infostructure.Services.Files;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CVBuilder.Infostructure.Services.Users
 {
@@ -37,7 +32,7 @@ namespace CVBuilder.Infostructure.Services.Users
             return _mapper.Map<List<UserViewModel>>(users);
         }
 
-        public async Task<string> Create(CreateUserDto dto)
+        public async Task<ResponseUserDto> Create(CreateUserDto dto)
         {
             var user = _mapper.Map<User>(dto);
             user.UserName = dto.Email;
@@ -47,8 +42,10 @@ namespace CVBuilder.Infostructure.Services.Users
 
             }
 
-            await _userManager.CreateAsync(user, dto.Password);
-            return user.Id;
+             await _userManager.CreateAsync(user, dto.Password);
+
+            return _mapper.Map<ResponseUserDto>(user);
+          
         }
 
         public async Task<string> Update(UpdateUserDto dto)
