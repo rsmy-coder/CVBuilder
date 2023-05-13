@@ -3780,6 +3780,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CVBuilder.Data >= 1.0.0",
       "CVBuilder.Infostructure >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.9",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.9",
@@ -3817,6 +3818,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "F:\\NetWorkVP\\CVBuilder\\CVBuilder.Data\\CVBuilder.Data.csproj": {
+              "projectPath": "F:\\NetWorkVP\\CVBuilder\\CVBuilder.Data\\CVBuilder.Data.csproj"
+            },
             "F:\\NetWorkVP\\CVBuilder\\CVBuilder.Infostructure\\CVBuilder.Infostructure.csproj": {
               "projectPath": "F:\\NetWorkVP\\CVBuilder\\CVBuilder.Infostructure\\CVBuilder.Infostructure.csproj"
             }

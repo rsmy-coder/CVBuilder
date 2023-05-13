@@ -10,6 +10,12 @@ namespace CVBuilder.API.Data
             : base(options)
         {
         }
+        public DbSet<ProjectsDbEntity> ProjectsDbEntities { get; set; }
+        public DbSet<EducationDbEntity> EducationDbEntities { get; set; }
+        public DbSet<ExperienceDbEntity> ExperienceDbEntities { get; set; }
         public DbSet<CV> CVs { get; set; }
+        public DbSet<Skills> Skills { get; set; }
+        public DbSet<Award> Awards { get; set; }
+
     }
 }

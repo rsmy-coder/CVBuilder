@@ -18,6 +18,23 @@ namespace CVBuilder.Infostructure.AutoMapper
             CreateMap<UpdateUserDto,User>().ForMember(x => x.ImgUrl, x => x.Ignore());
             CreateMap<User,UserViewModel>();
             CreateMap<User , ResponseUserDto>();
+
+            CreateMap<EducationDbEntity, EducationViewModel>();
+            CreateMap<CreateEducationDto, EducationDbEntity>();
+            CreateMap<UpdateEducationDto, EducationDbEntity>();
+
+            CreateMap<ProjectsDbEntity,ProjectViewModel>();
+            CreateMap<CreateProjectDto, ProjectsDbEntity>();
+            CreateMap<UpdateProjectDto, ProjectsDbEntity>();
+
+            CreateMap<ExperienceDbEntity, ExperinsesViewModel>();
+            CreateMap<CreateExperinsesDto, ExperienceDbEntity>();
+
+            CreateMap<Skills, SkillAwordViewModel>();
+            CreateMap<CreateSkillAwordDto, Skills>();
+
+            CreateMap<Award, SkillAwordViewModel>();
+            CreateMap<CreateSkillAwordDto, Award>();
         }
     }
 }

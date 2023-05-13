@@ -1,0 +1,17 @@
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\bin\Release\net6.0\CVBuilder.Infostructure.deps.json
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\bin\Release\net6.0\CVBuilder.Infostructure.dll
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\bin\Release\net6.0\CVBuilder.Infostructure.pdb
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\bin\Release\net6.0\CVBuilder.Core.dll
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\bin\Release\net6.0\CVBuilder.Data.dll
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\bin\Release\net6.0\CVBuilder.Data.pdb
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\bin\Release\net6.0\CVBuilder.Core.pdb
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\CVBuilder.Infostructure.csproj.AssemblyReference.cache
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\CVBuilder.Infostructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\CVBuilder.Infostructure.AssemblyInfoInputs.cache
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\CVBuilder.Infostructure.AssemblyInfo.cs
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\CVBuilder.Infostructure.csproj.CoreCompileInputs.cache
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\CVBuilder.Infostructure.csproj.CopyComplete
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\CVBuilder.Infostructure.dll
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\refint\CVBuilder.Infostructure.dll
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\CVBuilder.Infostructure.pdb
+F:\NetWorkVP\CVBuilder\CVBuilder.Infostructure\obj\Release\net6.0\ref\CVBuilder.Infostructure.dll

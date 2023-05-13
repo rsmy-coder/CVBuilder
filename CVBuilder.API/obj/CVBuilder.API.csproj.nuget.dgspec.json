@@ -28,6 +28,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "F:\\NetWorkVP\\CVBuilder\\CVBuilder.Data\\CVBuilder.Data.csproj": {
+                "projectPath": "F:\\NetWorkVP\\CVBuilder\\CVBuilder.Data\\CVBuilder.Data.csproj"
+              },
               "F:\\NetWorkVP\\CVBuilder\\CVBuilder.Infostructure\\CVBuilder.Infostructure.csproj": {
                 "projectPath": "F:\\NetWorkVP\\CVBuilder\\CVBuilder.Infostructure\\CVBuilder.Infostructure.csproj"
               }

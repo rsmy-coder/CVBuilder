@@ -16,5 +16,10 @@ namespace CVBuilder.Data.Models
         public string? ImgUrl { get; set; }
         public string Password { get; set; }
         public bool IsDelete { get; set; }
+        public List<ProjectsDbEntity>? Projects { get; set; }
+        public List<ExperienceDbEntity>? Experiences { get; set; }
+        public List<Award>? Awards { get; set; }
+        public List<Skills>? Skills { get; set; }
+        public List<EducationDbEntity>? EducationDbEntities { get; set; }
     }
 }

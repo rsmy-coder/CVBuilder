@@ -22,11 +22,9 @@ namespace CVBuilder.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get(string id)
-        {
-            var category = _userService.Get(id);
-            return Ok(GetResponse(category));
-        }
+        public IActionResult Get(string id) 
+            => Ok(GetResponse( _userService.Get(id)));
+        
 
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] CreateUserDto dto)

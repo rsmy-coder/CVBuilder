@@ -74,14 +74,14 @@ namespace CVBuilder.Infostructure.Services.Users
             return user.Id;
         }
 
-        public async Task<UserViewModel> Get(string id)
+        public async Task<ResponseUserDto> Get(string id)
         {
             var user = _db.Users.SingleOrDefault(x => x.Id == id && !x.IsDelete);
             if (user == null)
             {
                 //throw 
             }
-            return _mapper.Map<UserViewModel>(user);
+            return _mapper.Map<ResponseUserDto>(user);
         }
     }
         

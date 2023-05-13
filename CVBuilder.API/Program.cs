@@ -1,7 +1,12 @@
 using CVBuilder.API.Data;
 using CVBuilder.Data.Models;
 using CVBuilder.Infostructure.AutoMapper;
+using CVBuilder.Infostructure.Services.AwardService;
+using CVBuilder.Infostructure.Services.EducationService;
+using CVBuilder.Infostructure.Services.ExperincecService;
 using CVBuilder.Infostructure.Services.Files;
+using CVBuilder.Infostructure.Services.ProjectService;
+using CVBuilder.Infostructure.Services.SkillesService;
 using CVBuilder.Infostructure.Services.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -35,6 +40,14 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddTransient<IFileService, FileService>();
 builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddTransient<IEducationService,EducationService>();
+builder.Services.AddTransient<IProjectService,ProjectService>();
+builder.Services.AddTransient<IExperincecService,ExperincecService>();
+builder.Services.AddTransient<ISkillesService,SkillesService>();
+builder.Services.AddTransient<IAwardService, AwardService>();
+
+
+
 builder.Services.AddCors();
 
 builder.Services.AddSwaggerGen(c =>

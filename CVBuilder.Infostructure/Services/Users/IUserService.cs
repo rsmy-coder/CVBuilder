@@ -15,6 +15,6 @@ namespace CVBuilder.Infostructure.Services.Users
         Task<ResponseUserDto> Create(CreateUserDto dto);
         Task<string> Update(UpdateUserDto dto);
         Task<string> Delete(string id);
-        Task<UserViewModel> Get(string id);
+        Task<ResponseUserDto> Get(string id);
     }
 }
